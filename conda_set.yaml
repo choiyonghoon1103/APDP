@@ -2,23 +2,23 @@ name: ADPD
 channels:
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1=main
-  - bzip2=1.0.8=h7b6447c_0
-  - ca-certificates=2024.11.26=h06a4308_0
-  - ld_impl_linux-64=2.40=h12ee557_0
-  - libffi=3.3=he6710b0_2
-  - libgcc-ng=9.1.0=hdf63c60_0
-  - libstdcxx-ng=9.1.0=hdf63c60_0
-  - libuuid=1.0.3=h7f8727e_2
-  - ncurses=6.3=h7f8727e_2
-  - openssl=1.1.1w=h7f8727e_0
-  - python=3.10.4=h12debd9_0
-  - readline=8.1.2=h7f8727e_1
-  - sqlite=3.38.5=hc218d9a_0
-  - tk=8.6.12=h1ccaba5_0
-  - tzdata=2024b=h04d1e81_0
-  - xz=5.2.5=h7f8727e_1
-  - zlib=1.2.12=h7f8727e_2
+  - _libgcc_mutex=0.1
+  - bzip2=1.0.8
+  - ca-certificates=2024.11.26
+  - ld_impl_linux-64=2.40
+  - libffi=3.3
+  - libgcc-ng=9.1.0
+  - libstdcxx-ng=9.1.0
+  - libuuid=1.0.3
+  - ncurses=6.3
+  - openssl=1.1.1w
+  - python=3.10.4
+  - readline=8.1.2
+  - sqlite=3.38.5
+  - tk=8.6.12
+  - tzdata=2024b
+  - xz=5.2.5
+  - zlib=1.2.12
   - pip:
     - accelerate==1.2.1
     - aiohappyeyeballs==2.4.4
